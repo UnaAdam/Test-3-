@@ -9,3 +9,12 @@ with open(myfilename, 'r') as file_handle:
         print(values)
 
 print(type(myfilename))
+#Singularity - it is an alternative to a Docker. According to various 
+#sources it used by academic community. They are called "containers for 
+#scientific research".
+#Basically, Docker have a problem with security issues. In Docker 
+#superuser have a privilege, but others can access others users data. 
+#Singularity uses, for instance, the limited usage to root. Which means 
+#that only the root user can run the container. Singularity is the first 
+#choice in academic circles when trying to run HPC workloads related to 
+#AI.
