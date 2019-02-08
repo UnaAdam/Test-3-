@@ -1,3 +1,5 @@
+#this will find and read the values in a document and print there values as '0', '12.5', etc. and 
+# the type of values as string 
 import os
 myfilename = 'housing.data.txt'
 
@@ -9,6 +11,9 @@ with open(myfilename, 'r') as file_handle:
         print(values)
 
 print(type(myfilename))
+
+# next step is to convert strings ot intiger 
+
 #Singularity - it is an alternative to a Docker. According to various 
 #sources it used by academic community. They are called "containers for 
 #scientific research".
